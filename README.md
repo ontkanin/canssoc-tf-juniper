@@ -175,6 +175,17 @@ show security dynamic-address
 
 With the size of CanSSOC TF, it can take a couple of seconds for the initial TF update.
 
+To manually refresh your SRX with the latest feed data outside of the regular update interval, run the following command in the CLI operational mode:
+
+```
+request security dynamic-address update address-name DYNAMIC_ADDRESS_NAME
+```
+For example:
+
+```
+request security dynamic-address update address-name canssoc_generic_ipv4
+```
+
 <a name="tfuisp"></a>
 
 ### Threat Feeds Use in Security Policies
