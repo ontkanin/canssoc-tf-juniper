@@ -228,8 +228,11 @@ set security policies from-zone Internet to-zone Trusted policy Block_Inbound th
 
 ### Other Feed Sources
 
+* [Atlassian IP Address Ranges](https://support.atlassian.com/organization-administration/docs/ip-addresses-and-domains-for-atlassian-cloud-products/) (additional steps required to download and process JSON data)
 * [AWS IP Address Ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) (additional steps required to download and process JSON data)
-* [Azure IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=56519) (additional steps required to download and process JSON data)
-* [Office 365 IP Address Ranges](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) (additional steps required to download and process JSON data)
+* [Azure IP Address Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=56519) (additional steps required to download and process JSON data)
 * [GeoIP Blocking with IPdeny](https://www.ipdeny.com/ipblocks/)
+* [GitHub IP Address Ranges](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-githubs-ip-addresses) (additional steps required to download and process JSON data)
+* [Google IP Address Ranges](https://support.google.com/a/answer/10026322) (additional steps required to download and process JSON data)
+* [Office 365 IP Address Ranges](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) (additional steps required to download and process JSON data)
 * [TOR Project Exit Node List](https://check.torproject.org/torbulkexitlist)
